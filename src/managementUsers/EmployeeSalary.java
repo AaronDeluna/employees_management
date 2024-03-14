@@ -1,3 +1,5 @@
+package managementUsers;
+
 import java.util.Scanner;
 
 public class EmployeeSalary {

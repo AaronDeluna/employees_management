@@ -1,3 +1,5 @@
+package managementUsers;
+
 public class Employee {
     public static void employeeMethod(String[] arrayName, int[] arrayAge, int[] arraySalary){
         boolean isEmpty = true;

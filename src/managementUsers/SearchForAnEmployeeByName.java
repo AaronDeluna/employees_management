@@ -1,3 +1,5 @@
+package managementUsers;
+
 import java.util.Scanner;
 
 public class SearchForAnEmployeeByName {
@@ -6,7 +8,7 @@ public class SearchForAnEmployeeByName {
             System.out.println("Введите имя сотрудника: ");
             String employeeName = scanner.next();
             if (arrayName[i].equals(employeeName)){
-                System.out.println("Такой сотрудник есть!");
+                Employee.employeeMethod(arrayName,arrayAge,arraySalary);
             }else {
                 System.out.println("Такого сотрудника нет!");
             }

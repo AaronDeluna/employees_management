@@ -1,3 +1,8 @@
+import managementUsers.Employee;
+import managementUsers.EmployeeManager;
+import managementUsers.EmployeeSalary;
+import managementUsers.SearchForAnEmployeeByName;
+
 import java.util.Scanner;
 
 public class Main {
@@ -12,8 +17,7 @@ public class Main {
         //счетчик
         int counter = 0;
 
-
-        System.out.println("Вас приведствует сервис, управление сотрудниками!");
+        System.out.println("Вас приведствует сервис, по управлению сотрудниками!");
         String a = "1. Добавление сотрудника",
                 b = "2. Показать всех сотрудников",
                 c = "3. Изменение зарплаты сотрудника",
