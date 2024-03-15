@@ -1,7 +1,7 @@
-import managementUsers.Employee;
-import managementUsers.EmployeeManager;
-import managementUsers.EmployeeSalary;
-import managementUsers.SearchForAnEmployeeByName;
+import userManagement.Employee;
+import userManagement.EmployeeManager;
+import userManagement.EmployeeSalary;
+import userManagement.SearchForAnEmployeeByName;
 
 import java.util.Scanner;
 

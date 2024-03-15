@@ -1,4 +1,4 @@
-package managementUsers;
+package userManagement;
 
 public class Employee {
     public static void employeeMethod(String[] arrayName, int[] arrayAge, int[] arraySalary){

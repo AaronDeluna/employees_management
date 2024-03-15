@@ -1,4 +1,4 @@
-package managementUsers;
+package userManagement;
 
 import java.util.Scanner;
 
